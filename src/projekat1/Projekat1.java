@@ -15,7 +15,15 @@ public class Projekat1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Student[] studenti = new Student[5];
+        Student s = new Student();
+        s.setId(1);
+        s.setName("Pera");
+        
+        int[] niz = new int[4];
+        niz.clone();
+        
+        
     }
     
 }
